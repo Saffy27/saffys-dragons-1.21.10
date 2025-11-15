@@ -63,8 +63,9 @@ dependencies {
 
     // Formations Structure Library
     modImplementation "curse.maven:formations-915115:6789363"
+
     // Core library
-    //modImplementation "formations-1.0.4-dev-fabric-mc1.21.6"
+    modImplementation "com.supermartijn642:formations-1.0.4-dev-fabric-mc1.21.6"
     //modImplementation "maven.modrinth:smc-core:1.1.0+1.21.10-Fabric"
 
 
