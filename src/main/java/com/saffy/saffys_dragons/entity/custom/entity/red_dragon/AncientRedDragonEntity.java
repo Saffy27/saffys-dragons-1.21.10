@@ -47,4 +47,9 @@ public class AncientRedDragonEntity extends HostileEntity implements GeoEntity {
                 .add(EntityAttributes.WATER_MOVEMENT_EFFICIENCY, 0.7)
                 .add(EntityAttributes.STEP_HEIGHT, 5);
     }
+
+    @Override
+    public boolean canImmediatelyDespawn(double distanceSquared) {
+        return false;
+    }
 }

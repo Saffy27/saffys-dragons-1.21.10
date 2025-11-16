@@ -47,4 +47,9 @@ public class BabyRedDragonEntity extends HostileEntity implements GeoEntity {
                 .add(EntityAttributes.WATER_MOVEMENT_EFFICIENCY, 0.4)
                 .add(EntityAttributes.STEP_HEIGHT, 1);
     }
+
+    @Override
+    public boolean canImmediatelyDespawn(double distanceSquared) {
+        return false;
+    }
 }
